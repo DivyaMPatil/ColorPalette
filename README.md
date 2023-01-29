@@ -1,2 +1,3 @@
 `#ColorPalette`
-This site was built using [Website link](https://coloe-palette.netlify.app/).
+Overview of Project [Website link](https://coloe-palette.netlify.app/).
+`html,Css,Javascript`
