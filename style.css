@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+body{
+    background:pink;
+}
+.container .color{
+    list-style: none;
+    background: white;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(52,87,220,0.08);
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.container .color:active{
+    transform: scale(0.95);
+}
+.color:hover .react-box{
+filter:brightness(106%);
+}
+
+.color .react-box{
+width: 185px;
+height: 188px;
+background: purple;
+border-radius: 6px;
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+.color .hex-code{
+display: block;
+color: #444;
+margin: 12px 0 8px;
+font-weight: 500;
+font-size: 1.15rem;
+text-transform: uppercase;
+}
+.refresh-btn{
+    outline: none;
+    color: pink;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px 20px;
+    background-color: purple;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(52,87,220,0.2);
+    align-content: center;
+    position:fixed;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+}   
