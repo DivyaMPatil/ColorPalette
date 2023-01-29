@@ -17,7 +17,7 @@ const generatePalette = () =>{
         container.appendChild(color);
     }
  
-    asbvYSfdstyfsdt
+    
 }
 generatePalette();
 const copyColor = (elem,hexVal) => {
